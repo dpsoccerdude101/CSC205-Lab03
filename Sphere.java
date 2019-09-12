@@ -8,15 +8,11 @@
 public class Sphere extends AbstractShape
 {
     private double radius;
-    private double area;
-    private double volume;
     private static int numSpheresCreated = 0;
 
     public Sphere(double rad) //constructor
     {
         radius = rad;
-        area = area();
-        volume = volume();
         incrementNumSpheresCreated();
         incrementNumShapesCreated();
     }
