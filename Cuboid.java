@@ -2,7 +2,7 @@
 /**
  * Write a description of class Cuboid here.
  *
- * @author (Dennis Pavlyuk Kurt Mueller)
+ * @author (Dennis Pavlyuk & Kurt Mueller)
  * @version (9/12/19)
  */
 public class Cuboid extends AbstractShape
