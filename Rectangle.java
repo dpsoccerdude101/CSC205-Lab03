@@ -1,33 +1,37 @@
-
-/**
- * Write a description of class Rectangle here.
- *
- * @author (Dennis Pavlyuk Kurt Mueller)
- * @version (9/12/19)
- */
-public class Rectangle
+public class Rectangle extends AbstractShape
 {
-    // instance variables - replace the example below with your own
-    private int x;
+    private double length;
+    private double width; 
+    private static int numRectanglesCreated = 0;
 
-    /**
-     * Constructor for objects of class Rectangle
-     */
-    public Rectangle()
+    public Rectangle(double len, double wid) //constructor
     {
-        // initialise instance variables
-        x = 0;
+       length = len;
+       width  = wid;
+       incrementNumRectanglesCreated();
+       incrementNumShapesCreated();
     }
+    public double area()
+    {
+	    double area = length * width;
+	    return area;
+    } 
+    public double perimeter()
+    {
+	    double perimeter = 2 * (length + width);
+       return perimeter;
+	 }
+    public double volume()
+    {
+	  	return 0.0;
+	 }
+	 public void incrementNumRectanglesCreated()
+	 {
+		numRectanglesCreated++;
+	 }
+	 public void incrementNumShapesCreated()
+	 {
+		numShapesCreated++;
+	 }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
-    }
 }
