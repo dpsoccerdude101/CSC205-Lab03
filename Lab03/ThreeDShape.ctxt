@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=ThreeDShape
+comment0.text=\r\n\ Write\ a\ description\ of\ interface\ ThreeDSHape\ here.\r\n\r\n\ @author\ (Kurt\ Mueller\ &\ Dennis\ Pavlyuk)\r\n\ @version\ (9/12/2019)\r\n
+comment1.params=
+comment1.target=double\ volume()
+numComments=2
