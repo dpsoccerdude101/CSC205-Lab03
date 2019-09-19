@@ -31,24 +31,6 @@ public class ShapeTester {
          df.setMaximumFractionDigits(2);
          
          for (int count = 0; count < 16; count++) {
-             // if (myShapes[count].getClass() == Rectangle.class) {
-                 
-                 // System.out.print(myShapes[count].area());
-                 // System.out.print(myShapes[count].perimeter());
-                 // System.out.print(myShapes[count].volume());
-                // }
-             // else if (myShapes[count].getClass() == Circle.class) {
-                 // System.out.print(myShapes[count].area());
-                 // System.out.print(myShapes[count].perimeter());
-                 // System.out.print(myShapes[count].volume());
-                // }
-             // else if (myShapes[count].getClass() == Cuboid.class) {
-                 // System.out.print(myShapes[count].area());
-                 // System.out.print(myShapes[count].perimeter());
-                 // System.out.print(myShapes[count].volume());
-                // }
-             // else {
-             
              System.out.println("The area of this " + myShapes[count].getClass() + " [" + count + "] is " + df.format(myShapes[count].area()));
              System.out.println("The perimeter of this " + myShapes[count].getClass() + " [" + count + "] is " + df.format(myShapes[count].perimeter()));
              System.out.println("The volume of this " + myShapes[count].getClass() + " [" + count + "] is " + df.format(myShapes[count].volume()));
