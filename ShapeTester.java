@@ -36,5 +36,10 @@ public class ShapeTester {
              System.out.println("The volume of this " + myShapes[count].getClass() + " [" + count + "] is " + df.format(myShapes[count].volume()));
              System.out.print("\n");
             }
+         System.out.println("Total number of Rectangle objects = " + Rectangle.numRectanglesCreated);
+         System.out.println("Total number of Circle objects = " + Circle.numCirclesCreated);
+         System.out.println("Total number of Cuboid objects = " + Cuboid.numCuboidsCreated);
+         System.out.println("Total number of Sphere objects = " + Sphere.numSpheresCreated);
+         System.out.println("Total number of Shape objects = " + AbstractShape.numShapesCreated);
          }
     }

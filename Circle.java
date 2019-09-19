@@ -7,7 +7,7 @@
 public class Circle extends AbstractShape
 {
     private double radius;
-    private static int numCirclesCreated = 0;
+    protected static int numCirclesCreated = 0;
 
     public Circle(double rad) //constructor
     {

@@ -8,12 +8,14 @@
 public class Cuboid extends AbstractShape
 {
     private double length, width, height;
-    
+    protected static int numCuboidsCreated = 0;
     //constructor
     public Cuboid(double len, double wid, double hi){
         length = len;
         width = wid;
         height = hi;
+        incrementNumCuboidsCreated();
+        incrementNumShapesCreated();
     }
     
     //calculate the surface area
@@ -33,5 +35,14 @@ public class Cuboid extends AbstractShape
         return volume;
     }
     
-    
+    public void incrementNumCuboidsCreated()
+    {
+        numCuboidsCreated++;
+    }
+
+    public void incrementNumShapesCreated()
+    {
+        numShapesCreated++;
+    }
+
 }

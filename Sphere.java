@@ -8,7 +8,7 @@
 public class Sphere extends AbstractShape
 {
     private double radius;
-    private static int numSpheresCreated = 0;
+    protected static int numSpheresCreated = 0;
 
     public Sphere(double rad) //constructor
     {
