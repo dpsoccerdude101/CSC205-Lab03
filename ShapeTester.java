@@ -1,3 +1,4 @@
+import java.text.*;
 /**
  * Write a description of interface ShapeTester here.
  *
@@ -26,27 +27,32 @@ public class ShapeTester {
          myShapes[14] = new Sphere(12);
          myShapes[15] = new Sphere (-10);
          
+         DecimalFormat df = new DecimalFormat();
+         df.setMaximumFractionDigits(2);
+         
          for (int count = 0; count < 16; count++) {
-             if (myShapes[count].getClass() == Rectangle.class) {
-                 System.out.print(myShapes[count].area());
-                 System.out.print(myShapes[count].perimeter());
-                 System.out.print(myShapes[count].volume());
-                }
-             else if (myShapes[count].getClass() == Circle.class) {
-                 System.out.print(myShapes[count].area());
-                 System.out.print(myShapes[count].perimeter());
-                 System.out.print(myShapes[count].volume());
-                }
-             else if (myShapes[count].getClass() == Cuboid.class) {
-                 System.out.print(myShapes[count].area());
-                 System.out.print(myShapes[count].perimeter());
-                 System.out.print(myShapes[count].volume());
-                }
-             else {
-             System.out.print(myShapes[count].area());
-             System.out.print(myShapes[count].perimeter());
-             System.out.print(myShapes[count].volume());
+             // if (myShapes[count].getClass() == Rectangle.class) {
+                 
+                 // System.out.print(myShapes[count].area());
+                 // System.out.print(myShapes[count].perimeter());
+                 // System.out.print(myShapes[count].volume());
+                // }
+             // else if (myShapes[count].getClass() == Circle.class) {
+                 // System.out.print(myShapes[count].area());
+                 // System.out.print(myShapes[count].perimeter());
+                 // System.out.print(myShapes[count].volume());
+                // }
+             // else if (myShapes[count].getClass() == Cuboid.class) {
+                 // System.out.print(myShapes[count].area());
+                 // System.out.print(myShapes[count].perimeter());
+                 // System.out.print(myShapes[count].volume());
+                // }
+             // else {
+             
+             System.out.println("The area of this " + myShapes[count].getClass() + " [" + count + "] is " + df.format(myShapes[count].area()));
+             System.out.println("The perimeter of this " + myShapes[count].getClass() + " [" + count + "] is " + df.format(myShapes[count].perimeter()));
+             System.out.println("The volume of this " + myShapes[count].getClass() + " [" + count + "] is " + df.format(myShapes[count].volume()));
+             System.out.print("\n");
             }
          }
     }
-}
