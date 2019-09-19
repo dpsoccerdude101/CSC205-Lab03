@@ -27,9 +27,26 @@ public class ShapeTester {
          myShapes[15] = new Sphere (-10);
          
          for (int count = 0; count < 16; count++) {
+             if (myShapes[count].getClass() == Rectangle.class) {
+                 System.out.print(myShapes[count].area());
+                 System.out.print(myShapes[count].perimeter());
+                 System.out.print(myShapes[count].volume());
+                }
+             else if (myShapes[count].getClass() == Circle.class) {
+                 System.out.print(myShapes[count].area());
+                 System.out.print(myShapes[count].perimeter());
+                 System.out.print(myShapes[count].volume());
+                }
+             else if (myShapes[count].getClass() == Cuboid.class) {
+                 System.out.print(myShapes[count].area());
+                 System.out.print(myShapes[count].perimeter());
+                 System.out.print(myShapes[count].volume());
+                }
+             else {
              System.out.print(myShapes[count].area());
              System.out.print(myShapes[count].perimeter());
              System.out.print(myShapes[count].volume());
+            }
          }
     }
 }
