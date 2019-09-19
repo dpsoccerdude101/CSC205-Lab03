@@ -30,7 +30,7 @@ public class Sphere extends AbstractShape
 
     public double volume()
     {
-        double volume = (4.0 * Math.PI * radius * radius * radius) / 3.0
+        double volume = (4.0 * Math.PI * radius * radius * radius) / 3.0;
         return volume;
     }
 

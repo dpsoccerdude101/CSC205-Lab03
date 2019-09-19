@@ -10,7 +10,7 @@ public class Cuboid extends AbstractShape
     private double length, width, height;
     
     //constructor
-    public cuboid(double len, double wid, double hi){
+    public Cuboid(double len, double wid, double hi){
         length = len;
         width = wid;
         height = hi;
