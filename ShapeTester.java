@@ -25,5 +25,11 @@ public class ShapeTester {
          myShapes[13] = new Sphere(25);
          myShapes[14] = new Sphere(12);
          myShapes[15] = new Sphere (-10);
+         
+         for (int count = 0; count < 16; count++) {
+             System.out.print(myShapes[count].area());
+             System.out.print(myShapes[count].perimeter());
+             System.out.print(myShapes[count].volume());
+         }
     }
 }
