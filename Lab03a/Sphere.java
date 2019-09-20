@@ -1,6 +1,5 @@
-
 /**
- * Write a description of class Sphere here.
+ * Sphere is a child of AbstractShape, Shape, and ThreeDShape.
  *
  * @author (Dennis Pavlyuk & Kurt Mueller)
  * @version (9/12/19)
@@ -8,7 +7,7 @@
 public class Sphere extends AbstractShape
 {
     private double radius;
-    private static int numSpheresCreated = 0;
+    protected static int numSpheresCreated = 0;
 
     public Sphere(double rad) //constructor
     {
@@ -30,7 +29,7 @@ public class Sphere extends AbstractShape
 
     public double volume()
     {
-        double volume = (4.0 * Math.PI * radius * radius * radius) / 3.0
+        double volume = (4.0 * Math.PI * radius * radius * radius) / 3.0;
         return volume;
     }
 
@@ -43,5 +42,4 @@ public class Sphere extends AbstractShape
     {
         numShapesCreated++;
     }
-
 }

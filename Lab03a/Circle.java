@@ -1,5 +1,5 @@
 /**
- * Write a description of class Circle here.
+ * Circle is a child of AbstractShape and Shape.
  *
  * @author (Dennis Pavlyuk & Kurt Mueller)
  * @version (9/12/19)
@@ -7,7 +7,7 @@
 public class Circle extends AbstractShape
 {
     private double radius;
-    private static int numCirclesCreated = 0;
+    protected static int numCirclesCreated = 0;
 
     public Circle(double rad) //constructor
     {
@@ -42,5 +42,4 @@ public class Circle extends AbstractShape
     {
         numShapesCreated++;
     }
-
 }
