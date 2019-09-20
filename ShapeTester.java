@@ -1,6 +1,7 @@
+//for decimal formatting
 import java.text.*;
 /**
- * Write a description of interface ShapeTester here.
+ * Tests Shape class and all children classes of Shape class.
  *
  * @author (Kurt Mueller & Dennis Pavlyuk)
  * @version (9/12/2019)
@@ -29,7 +30,6 @@ public class ShapeTester {
          
          DecimalFormat df = new DecimalFormat();
          df.setMaximumFractionDigits(2);
-         
          
          for (int count = 0; count < 16; count++) {
              System.out.println("The area of this " + myShapes[count].getClass().getName() + " [" + count + "] is " + df.format(myShapes[count].area()));

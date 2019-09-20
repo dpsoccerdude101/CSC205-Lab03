@@ -1,6 +1,5 @@
-
 /**
- * Write a description of class Sphere here.
+ * Sphere is a child of AbstractShape, Shape, and ThreeDShape.
  *
  * @author (Dennis Pavlyuk & Kurt Mueller)
  * @version (9/12/19)
@@ -43,5 +42,4 @@ public class Sphere extends AbstractShape
     {
         numShapesCreated++;
     }
-
 }

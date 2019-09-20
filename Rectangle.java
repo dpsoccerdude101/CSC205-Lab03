@@ -1,3 +1,14 @@
+/**
+ * Abstract class AbstractShape - a skeleton for all of the shapes.
+ *
+ * @author (Kurt Mueller & Dennis Pavlyuk)
+ * @version (9/12/2019)
+/**
+ * Rectangle is a child of AbstractShape and Shape.
+ *
+ * @author (Kurt Mueller & Dennis Pavlyuk)
+ * @version (9/12/2019)
+ */
 public class Rectangle extends AbstractShape
 {
     private double length;
@@ -38,5 +49,4 @@ public class Rectangle extends AbstractShape
     {
         numShapesCreated++;
     }
-
 }

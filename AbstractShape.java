@@ -1,5 +1,5 @@
 /**
- * Abstract class AbstractShape - write a description of the class here
+ * Abstract class AbstractShape - a skeleton for all of the shapes.
  *
  * @author (Kurt Mueller & Dennis Pavlyuk)
  * @version (9/12/2019)

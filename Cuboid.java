@@ -1,6 +1,5 @@
-
 /**
- * Write a description of class Cuboid here.
+ * Cuboid is a child of AbstractShape, Shape, and ThreeDShape.
  *
  * @author (Dennis Pavlyuk & Kurt Mueller)
  * @version (9/12/19)
@@ -9,6 +8,7 @@ public class Cuboid extends AbstractShape
 {
     private double length, width, height;
     protected static int numCuboidsCreated = 0;
+    
     //constructor
     public Cuboid(double len, double wid, double hi){
         length = len;
@@ -44,5 +44,4 @@ public class Cuboid extends AbstractShape
     {
         numShapesCreated++;
     }
-
 }
