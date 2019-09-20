@@ -30,10 +30,11 @@ public class ShapeTester {
          DecimalFormat df = new DecimalFormat();
          df.setMaximumFractionDigits(2);
          
+         
          for (int count = 0; count < 16; count++) {
-             System.out.println("The area of this " + myShapes[count].getClass() + " [" + count + "] is " + df.format(myShapes[count].area()));
-             System.out.println("The perimeter of this " + myShapes[count].getClass() + " [" + count + "] is " + df.format(myShapes[count].perimeter()));
-             System.out.println("The volume of this " + myShapes[count].getClass() + " [" + count + "] is " + df.format(myShapes[count].volume()));
+             System.out.println("The area of this " + myShapes[count].getClass().getName() + " [" + count + "] is " + df.format(myShapes[count].area()));
+             System.out.println("The perimeter of this " + myShapes[count].getClass().getName() + " [" + count + "] is " + df.format(myShapes[count].perimeter()));
+             System.out.println("The volume of this " + myShapes[count].getClass().getName() + " [" + count + "] is " + df.format(myShapes[count].volume()));
              System.out.print("\n");
             }
          System.out.println("Total number of Rectangle objects = " + Rectangle.numRectanglesCreated);
