@@ -1,11 +1,11 @@
 #BlueJ class context
 comment0.target=IntSortSearchTester
-comment1.params=
-comment1.target=void\ linearSearchTester()
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
 comment2.params=
-comment2.target=void\ binarySearchTester()
+comment2.target=void\ linearSearchTester()
 comment3.params=
-comment3.target=void\ sortTester()
-comment4.params=args
-comment4.target=void\ main(java.lang.String[])
+comment3.target=void\ binarySearchTester()
+comment4.params=
+comment4.target=void\ sortTester()
 numComments=5
