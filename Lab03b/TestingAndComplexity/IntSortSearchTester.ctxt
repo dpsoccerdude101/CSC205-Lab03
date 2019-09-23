@@ -10,4 +10,6 @@ comment4.params=
 comment4.target=void\ sortTester()
 comment5.params=a
 comment5.target=void\ bubbleSort(int[])
-numComments=6
+comment6.params=a
+comment6.target=java.lang.String\ toString(int[])
+numComments=7
