@@ -8,4 +8,6 @@ comment3.params=
 comment3.target=void\ binarySearchTester()
 comment4.params=
 comment4.target=void\ sortTester()
-numComments=5
+comment5.params=a
+comment5.target=void\ bubbleSort(int[])
+numComments=6
