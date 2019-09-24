@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Cuboid
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Cuboid\ here.\r\n\r\n\ @author\ (Dennis\ Pavlyuk\ &\ Kurt\ Mueller)\r\n\ @version\ (9/12/19)\r\n
+comment0.text=\r\n\ Cuboid\ is\ a\ child\ of\ AbstractShape,\ Shape,\ and\ ThreeDShape.\r\n\r\n\ @author\ (Dennis\ Pavlyuk\ &\ Kurt\ Mueller)\r\n\ @version\ (9/12/19)\r\n
 comment1.params=len\ wid\ hi
 comment1.target=Cuboid(double,\ double,\ double)
 comment2.params=

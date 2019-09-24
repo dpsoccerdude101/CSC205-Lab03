@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=TwoDShape
-comment0.text=\r\n\ Write\ a\ description\ of\ interface\ TwoDShape\ here.\r\n\r\n\ @author\ (Kurt\ Mueller\ &\ Dennis\ Pavlyuk)\r\n\ @version\ (9/12/2019)\r\n
+comment0.text=\r\n\ Adds\ the\ skeleton\ for\ the\ perimeter\ method\ so\ that\ the\ child\ shapes\ are\ forced\ to\ include\ it.\r\n\r\n\ @author\ (Kurt\ Mueller\ &\ Dennis\ Pavlyuk)\r\n\ @version\ (9/12/2019)\r\n
 comment1.params=
 comment1.target=double\ perimeter()
 numComments=2

@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Sphere
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Sphere\ here.\r\n\r\n\ @author\ (Dennis\ Pavlyuk\ &\ Kurt\ Mueller)\r\n\ @version\ (9/12/19)\r\n
+comment0.text=\r\n\ Sphere\ is\ a\ child\ of\ AbstractShape,\ Shape,\ and\ ThreeDShape.\r\n\r\n\ @author\ (Dennis\ Pavlyuk\ &\ Kurt\ Mueller)\r\n\ @version\ (9/12/19)\r\n
 comment1.params=rad
 comment1.target=Sphere(double)
 comment2.params=
